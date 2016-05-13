@@ -1,0 +1,13 @@
+{
+    "id" : "PotentialEnergyDevices",
+    "version" : "1.0.0-SNAPSHOT",
+    "author" : "Josharias",
+    "displayName" : "Potential Energy Devices",
+    "description" : "A library for creating entities that build up potential energy.",
+    "dependencies" : [
+        {
+            "id": "Core", "minVersion": "1.0.0"
+        }
+    ],
+    "serverSideOnly" : false
+}
