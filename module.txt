@@ -4,7 +4,9 @@
     "author" : "Josharias",
     "displayName" : "Potential Energy Devices",
     "description" : "A library for creating entities that build up potential energy.",
-    "dependencies" : [],
+    "dependencies" : [
+        {"id" : "Inventory", "minVersion" : "1.1.0"}
+    ],
     "serverSideOnly" : false,
     "isLibrary": true
 }
