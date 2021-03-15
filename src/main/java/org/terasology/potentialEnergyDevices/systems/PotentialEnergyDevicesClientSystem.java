@@ -9,7 +9,7 @@ import org.terasology.engine.entitySystem.systems.RegisterMode;
 import org.terasology.engine.entitySystem.systems.RegisterSystem;
 import org.terasology.nui.widgets.TooltipLine;
 import org.terasology.potentialEnergyDevices.components.PotentialEnergyDeviceComponent;
-import org.terasology.rendering.nui.layers.ingame.inventory.GetItemTooltip;
+import org.terasology.module.inventory.ui.GetItemTooltip;
 
 @RegisterSystem(RegisterMode.CLIENT)
 public class PotentialEnergyDevicesClientSystem extends BaseComponentSystem {

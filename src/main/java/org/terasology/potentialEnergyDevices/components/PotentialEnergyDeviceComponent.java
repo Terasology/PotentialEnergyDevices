@@ -18,7 +18,7 @@ package org.terasology.potentialEnergyDevices.components;
 import org.terasology.engine.entitySystem.Component;
 import org.terasology.engine.network.Replicate;
 import org.terasology.engine.world.block.ForceBlockActive;
-import org.terasology.logic.inventory.ItemDifferentiating;
+import org.terasology.module.inventory.components.ItemDifferentiating;
 
 @ForceBlockActive
 public class PotentialEnergyDeviceComponent implements Component, ItemDifferentiating {
