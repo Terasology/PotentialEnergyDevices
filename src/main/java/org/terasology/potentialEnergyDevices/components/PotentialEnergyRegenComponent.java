@@ -8,4 +8,9 @@ import org.terasology.gestalt.entitysystem.component.Component;
 public class PotentialEnergyRegenComponent implements Component<PotentialEnergyRegenComponent> {
     @Replicate
     public float energyPerSecond;
+
+    @Override
+    public void copy(PotentialEnergyRegenComponent other) {
+        this.energyPerSecond = other.energyPerSecond;
+    }
 }

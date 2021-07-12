@@ -45,4 +45,10 @@ public class PotentialEnergyDeviceComponent implements Component<PotentialEnergy
         result = 31 * result + (maximumStoredEnergy != +0.0f ? Float.floatToIntBits(maximumStoredEnergy) : 0);
         return result;
     }
+
+    @Override
+    public void copy(PotentialEnergyDeviceComponent other) {
+        this.currentStoredEnergy = other.currentStoredEnergy;
+        this.maximumStoredEnergy = other.maximumStoredEnergy;
+    }
 }
