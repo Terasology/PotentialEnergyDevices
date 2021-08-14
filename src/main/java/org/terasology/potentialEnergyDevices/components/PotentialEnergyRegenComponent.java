@@ -10,7 +10,7 @@ public class PotentialEnergyRegenComponent implements Component<PotentialEnergyR
     public float energyPerSecond;
 
     @Override
-    public void copy(PotentialEnergyRegenComponent other) {
+    public void copyFrom(PotentialEnergyRegenComponent other) {
         this.energyPerSecond = other.energyPerSecond;
     }
 }

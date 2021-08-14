@@ -47,7 +47,7 @@ public class PotentialEnergyDeviceComponent implements Component<PotentialEnergy
     }
 
     @Override
-    public void copy(PotentialEnergyDeviceComponent other) {
+    public void copyFrom(PotentialEnergyDeviceComponent other) {
         this.currentStoredEnergy = other.currentStoredEnergy;
         this.maximumStoredEnergy = other.maximumStoredEnergy;
     }
